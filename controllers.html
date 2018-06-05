@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+<body>
+
+<div ng-app="myApp" siva></div>
+
+<script>
+var app = angular.module("myApp", []);
+app.directive("siva", function() {
+    return {
+        template : "the controller was define here"
+    };
+});
+</script>
+
+</body>
+</html>
